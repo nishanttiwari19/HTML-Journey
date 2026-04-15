@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details Form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Employee Details Form</h1>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required name="ename" placeholder="Enter Your Full Name" value="">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="eemail" id="email" required placeholder="Enter Your Email Address" value="">
+            <br><br>
+            <label for="number">Phone Number:</label>
+            <input type="tel" name="enumber" id="number" required placeholder="Enter Your Phone number" value="">
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="eGender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="eGender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="eGender" id="other" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="jobtitle">Job Title:</label>
+            <input type="text" name="ejobtitle" id="jobtitle" required placeholder="Enter Your Job Title" value="">
+            <br><br>
+            <label for="department">Department:</label>
+            <select name="edepartment" id="department">
+                <option value="" disabled selected>Select Your Department</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Finance">Finance</option>
+                <option value="Teaching">Teaching</option>
+                <option value="Banking">Banking</option>
+                <option value="Networking">Networking</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+            
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

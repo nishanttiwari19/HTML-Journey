@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT JEE Registration Form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+         <fieldset>
+        <legend>IIT JEE Registration Form</legend>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" name="sname" id="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="semail" id="email" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="sphone" id="phone" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="spassword" id="password" required>
+            <b><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="eGender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="eGender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="eGender" id="other" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="sdob" id="dob" required min="2001-01-01" max="2009-01-01">
+            <br><br>
+            <label for="school">School Name:</label>
+            <input type="text" name="sschool" id="school" required>
+            <br><br>
+            <label for="board">Board:</label>
+            <select name="sboard" id="board">
+                <option value="" disabled selected>Select Board</option>
+                <option value="">State Board</option>
+                <option value="">CBSE</option>
+                <option value="">ICSE</option>
+            </select>
+            <br><br>
+            <label for="passingyear">Year of Passing:</label>
+            <input type="number" name="spassingyear" id="passingyear" required min="2023" max="2026">
+            <br><br>
+            <label for="ecenter">Exam-Center:</label>
+            <select name="ecentre" id="ecenter">
+                <option value="" disabled selected>Select Exam-Center</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bhopal">Bhopal</option>
+                <option value="indore">Indore</option>
+            </select>
+            <br><br>
+            <button type="submit">Register</button>
+        </form>
+        </fieldset>
+    </main>
+    <footer></footer>
+</body>
+</html>
+http://127.0.0.1:3000/Day7/iitJeeForm.html?sname=Nishant+Tiwari&semail=tiwarinishant985%40gmail.com&sphone=07804888926&spassword=Nishant%402005&eGender=male&sdob=2005-01-23&sschool=ANHS+School+Gangeo&sboard=&spassingyear=2023&ecentre=Bhopal
